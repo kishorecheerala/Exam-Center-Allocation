@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exam Center Allocation</title>
+</head>
+<body>
+    <div class="container">
+        <p id="good-luck-message">
+        </p>
+        <h1>Exam Center Allocation</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required autofocus>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="city">Choose Exam Location:</label>
+            <select id="city" required>
+            <option value="" disabled selected>Select your preferred location</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="delhi">Delhi</option>
+            <option value="banglore">Banglore</option>
+            </select>
+
+            <button type="submit">Submit</button>
+            <button id="resetButton">Reset</button>
+        </form>
+        <div id="user-details">
+            <!-- user details will be appended here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
