@@ -1,3 +1,4 @@
 # Exam Center Allocation
 
-Simple Exam Center Allocation bases on a location Project using HTML Java Script
+Simple Exam Center Allocation based on a location
+Project was designed using HTML Java Script
